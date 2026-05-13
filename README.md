@@ -44,9 +44,7 @@ The chain looks like this:
 
 - `poc/dirtyfrag_sim.cpp` — cleaned-up C++ research source artifact
 - `poc/dirtyfrag` — compiled 64-bit binary artifact
-- `gen.py` — local Python diagram generator
 - `docs/dirtyfrag-flow.png` — generated publication diagram
-- `docs/dirtyfrag-flow.mmd` — Mermaid source diagram retained for reference
 
 ## Binary build
 
