@@ -14,7 +14,7 @@ The purpose of this material is:
 
 This repository is **not** an exploitation guide.
 
-In practical terms, the repository expands and documents the original public Dirty Frag ESP proof-of-concept in a more inspectable C++ form. The included materials are intended for **64-bit Linux systems only**.
+In practical terms, the repository expands and documents the original public Dirty Frag ESP proof-of-concept in a more inspectable form. The included materials are intended for **64-bit Linux systems only**.
 
 ---
 
@@ -43,7 +43,7 @@ The chain looks like this:
 ## What this repo contains
 
 - `poc/dirtyfrag_sim.cpp` — cleaned-up C++ research source artifact
-- `poc/dirtyfrag` — compiled 64-bit C++ binary artifact
+- `poc/dirtyfrag` — compiled 64-bit binary artifact
 - `gen.py` — local Python diagram generator
 - `docs/dirtyfrag-flow.png` — generated publication diagram
 - `docs/dirtyfrag-flow.mmd` — Mermaid source diagram retained for reference
@@ -62,7 +62,7 @@ g++ -std=c++17 -o poc/dirtyfrag poc/dirtyfrag.cpp
 
 Kernels from `cac2661c53f3` (2017-01-17) up to `f4c50a4034e6` (2026-05-05, fix released).
 
-The effective exposure window for the ESP path is about 9 years.
+The effective exposure window is about 9 years.
 
 ## Disclaimer
 
